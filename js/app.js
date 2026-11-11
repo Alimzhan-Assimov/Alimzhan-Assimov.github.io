@@ -175,7 +175,7 @@
           <div>${skills}</div>
           <h3 class="h-ink">Languages</h3>
           <div class="stats" style="grid-template-columns:repeat(3,1fr)">${langs}</div>
-          <div class="caption narration">Street, phone and date of birth live only in the PDF, not on this page.</div>
+          <div class="caption narration">The PDF is the public version: no street address or phone number, just my email.</div>
           <div class="actions">
             <a class="btn" href="${esc(cv.pdf)}" download>GET! → CV.pdf</a>
             <a class="btn secondary" href="mailto:${esc(cv.email)}">✉ Mail me</a>
