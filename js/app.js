@@ -127,8 +127,9 @@
             <div class="stat"><b>${days}d</b><span>since last push · ${fmtDate(p.pushedAt)}</span></div>
           </div>
           <div class="actions">
-            <a class="btn" href="${esc(p.url)}" target="_blank" rel="noopener">GO! → GitHub</a>
             ${p.homepage ? `<a class="btn ${/itch\.io/.test(p.homepage) ? 'itch' : 'secondary'}" href="${esc(p.homepage)}" target="_blank" rel="noopener">${esc(p.homepageLabel || 'Play / Visit')}</a>` : ''}
+            ${!p.private ? `<a class="btn ${p.homepage ? 'secondary' : ''}" href="${esc(p.url)}" target="_blank" rel="noopener">GO! → GitHub</a>` : ''}
+            ${p.private && !p.homepage ? '<span class="chip" style="font-size:15px;padding:8px 14px">🔒 Demo coming soon</span>' : ''}
             ${p.private ? '<span class="stamp">private</span>' : ''}
             ${p.archived ? '<span class="stamp">archived</span>' : ''}
             ${p.stars ? `<span class="chip">★ ${p.stars}</span>` : ''}
@@ -198,9 +199,10 @@
       right: `
         <div class="page-grid" style="height:100%">
           <h2 class="p-title"><small>BACK COVER</small>Find me</h2>
-          <div class="bubble thought">Want to poke at the code? Everything lives on GitHub.</div>
+          <div class="bubble thought">Want to play something? The demos live on itch.io. The code stays in the workshop.</div>
           <div class="actions" style="margin-top:0">
-            <a class="btn" href="https://github.com/${esc(data.owner)}" target="_blank" rel="noopener">GO! → github.com/${esc(data.owner)}</a>
+            <a class="btn itch" href="https://alimi55.itch.io" target="_blank" rel="noopener">PLAY! → alimi55.itch.io</a>
+            <a class="btn secondary" href="https://github.com/${esc(data.owner)}" target="_blank" rel="noopener">github.com/${esc(data.owner)}</a>
           </div>
           <div class="caption" style="margin-top:auto">Drawn with HTML, CSS and a lot of ink. Press <b>T</b> for the time machine.</div>
         </div>
