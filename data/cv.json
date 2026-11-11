@@ -1,0 +1,24 @@
+{
+  "_comment": "Hand-maintained CV data for the 'The Author' chapter. Street, phone and birth date are deliberately not shown on the page; the full PDF is linked via 'pdf'.",
+  "name": "Alimzhan Assimov",
+  "portrait": "assets/portrait.png",
+  "pdf": "assets/CV.pdf",
+  "headline": "Junior Software Developer at VusionGroup",
+  "location": "Fernitz bei Graz, Austria",
+  "email": "assimovalimzhan@gmail.com",
+  "intro": "HTL Villach graduate, writing software by day at VusionGroup since March 2026 and building games by night.",
+  "experience": [
+    { "when": "03/2026 – today", "what": "Junior Software Developer", "where": "VusionGroup, Fernitz bei Graz", "sfx": "LEVEL UP!" },
+    { "when": "10/2025 – 12/2025", "what": "Course: work and educational opportunities", "where": "BFI, Hermagor" },
+    { "when": "07/2024 – 08/2024", "what": "Intern & diploma thesis: extending the SFT for foreign markets, SCRUM meetings", "where": "BKS Bank headquarters, Klagenfurt" }
+  ],
+  "education": [
+    { "when": "09/2020 – 06/2025", "what": "Secondary school leaving exam and diploma, Informatics and Management", "where": "HTL Villach" }
+  ],
+  "skills": ["Java", "Spring Boot", "JavaFX", "JavaScript", "React", "Node", "Express", "MongoDB", "Oracle SQL", "REST APIs", "Kotlin", "Jetpack Compose", "Docker", "Azure", "CI/CD (GitLab)", "HTML / CSS", "GDScript", "Flutter / Dart", "SCRUM"],
+  "languages": [
+    { "name": "German", "level": "C2" },
+    { "name": "Russian", "level": "C2" },
+    { "name": "English", "level": "B1" }
+  ]
+}

@@ -1,0 +1,50 @@
+{
+  "_comment": "Hand-maintained extras per repo. Keys = repo name. hidden: leave out of the book. scene: which mini animation to draw (bridge, farm, book, archive, game, app, code). tagline: speech bubble text. sfx: onomatopoeia stamp on the page. image: optional screenshot in assets/. homepage: extra link (itch.io etc.), homepageLabel: button text.",
+  "bridge-to-the-moon": {
+    "scene": "bridge",
+    "title": "Bridge to the Moon",
+    "tagline": "384,400 km. One girder at a time.",
+    "sfx": "CLANK!",
+    "blurb": "First-person 3D comic-style game in Godot 4. Tear car wrecks apart in a scrapyard, press steel into girders and walk them out to the end of a bridge that grows all the way to the Moon. Robots, outposts, traders, asteroid showers and a signal from the Moon. Alone or co-op.",
+    "image": "assets/bridge-to-the-moon-cover.png",
+    "tags": [
+      "Godot 4",
+      "3D",
+      "Co-op",
+      "Crafting"
+    ],
+    "homepage": "https://alimi55.itch.io/bridge-to-the-moon",
+    "homepageLabel": "PLAY on itch.io"
+  },
+  "project-lazy": {
+    "scene": "farm",
+    "title": "Project Lazy",
+    "tagline": "Water the field. Watch it grow. Nap.",
+    "sfx": "SPROUT!",
+    "blurb": "A cozy 2D farming game for Godot 4. Six crops, timing mini-games for hoeing and watering, a day-night cycle with weather, orders, customers and your own market stall where you set the prices.",
+    "tags": [
+      "Godot 4",
+      "2D",
+      "Cozy",
+      "Farming"
+    ]
+  },
+  "readtrack": {
+    "scene": "book",
+    "title": "ReadTrack",
+    "tagline": "Every story you read, in one shelf.",
+    "sfx": "FLIP!",
+    "blurb": "Offline-first Flutter app to track books, fanfiction, web novels and manga. Paste a link and title, author, cover and chapters are filled in. Read online inside the app or download chapter ranges as EPUB, FB2, HTML or TXT.",
+    "image": "assets/readtrack-icon.svg",
+    "tags": [
+      "Flutter",
+      "Dart",
+      "Offline-first",
+      "EPUB"
+    ]
+  },
+  "readtrack-private-archive": {
+    "hidden": true,
+    "scene": "archive"
+  }
+}

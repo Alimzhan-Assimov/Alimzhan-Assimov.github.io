@@ -1,0 +1,83 @@
+{
+  "owner": "Alimzhan-Assimov",
+  "name": "Alimzhan Assimov",
+  "avatar": "https://avatars.githubusercontent.com/u/165491650?v=4",
+  "generated": "2026-11-11T09:58:19Z",
+  "projects": [
+    {
+      "id": "bridge-to-the-moon",
+      "title": "Bridge to the Moon",
+      "description": "First-person 3D comic-style game in Godot 4. Tear car wrecks apart in a scrapyard, press steel into girders and walk them out to the end of a bridge that grows all the way to the Moon. Robots, outposts, traders, asteroid showers and a signal from the Moon. Alone or co-op.",
+      "tagline": "384,400 km. One girder at a time.",
+      "sfx": "CLANK!",
+      "scene": "bridge",
+      "image": "assets/bridge-to-the-moon-cover.png",
+      "tags": [
+        "Godot 4",
+        "3D",
+        "Co-op",
+        "Crafting"
+      ],
+      "language": "GDScript",
+      "url": "https://github.com/Alimzhan-Assimov/bridge-to-the-moon",
+      "homepage": "https://alimi55.itch.io/bridge-to-the-moon",
+      "homepageLabel": "PLAY on itch.io",
+      "private": true,
+      "archived": false,
+      "stars": 0,
+      "commits": 60,
+      "createdAt": "2026-11-11T00:43:11Z",
+      "pushedAt": "2026-11-11T09:36:03Z"
+    },
+    {
+      "id": "project-lazy",
+      "title": "Project Lazy",
+      "description": "A cozy 2D farming game for Godot 4. Six crops, timing mini-games for hoeing and watering, a day-night cycle with weather, orders, customers and your own market stall where you set the prices.",
+      "tagline": "Water the field. Watch it grow. Nap.",
+      "sfx": "SPROUT!",
+      "scene": "farm",
+      "image": null,
+      "tags": [
+        "Godot 4",
+        "2D",
+        "Cozy",
+        "Farming"
+      ],
+      "language": "GDScript",
+      "url": "https://github.com/Alimzhan-Assimov/project-lazy",
+      "homepage": "",
+      "homepageLabel": "Play / Visit",
+      "private": true,
+      "archived": false,
+      "stars": 0,
+      "commits": 19,
+      "createdAt": "2026-10-25T20:08:30Z",
+      "pushedAt": "2026-10-26T13:00:40Z"
+    },
+    {
+      "id": "readtrack",
+      "title": "ReadTrack",
+      "description": "Offline-first Flutter app to track books, fanfiction, web novels and manga. Paste a link and title, author, cover and chapters are filled in. Read online inside the app or download chapter ranges as EPUB, FB2, HTML or TXT.",
+      "tagline": "Every story you read, in one shelf.",
+      "sfx": "FLIP!",
+      "scene": "book",
+      "image": "assets/readtrack-icon.svg",
+      "tags": [
+        "Flutter",
+        "Dart",
+        "Offline-first",
+        "EPUB"
+      ],
+      "language": "Dart",
+      "url": "https://github.com/Alimzhan-Assimov/readtrack",
+      "homepage": "",
+      "homepageLabel": "Play / Visit",
+      "private": true,
+      "archived": false,
+      "stars": 1,
+      "commits": 58,
+      "createdAt": "2026-10-22T18:38:12Z",
+      "pushedAt": "2026-10-26T09:33:05Z"
+    }
+  ]
+}
